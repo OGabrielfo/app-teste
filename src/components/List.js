@@ -5,8 +5,9 @@ function List() {
         <>
             <h1>Lista Show</h1>
             <ul>
-                <Item marca="Sony" />
-                <Item marca="Microsoft" />
+                <Item marca="Sony" ano_lancamento={2018} />
+                <Item marca="Microsoft" ano_lancamento={2019} />
+                <Item marca="" ano_lancamento="" />
             </ul>
         </>
     )

@@ -1,23 +1,13 @@
 import './App.css';
-import HelloWorld from './components/HelloWorld';
-import SayMyName from './components/SayMyName';
-import Pessoa from './components/Pessoa';
-import List from './components/List';
+import Condicional from './components/Condicional';
+
 
 function App() {
-  const nome = "Gabriel"
-
+  
   return (
     <div className="App">
-      <HelloWorld />
-      <SayMyName nome={nome} />
-      <Pessoa
-        nome= "Gabriel" 
-        idade= "26" 
-        profissao= "Filmmaker" 
-        foto="https://via.placeholder.com/150" 
-      />
-      <List />
+      <h1>Renderização condicional</h1>
+      <Condicional />
     </div>
   );
 }
